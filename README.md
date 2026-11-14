@@ -9,7 +9,7 @@
 ```bash
     uv venv --python 3.11
     source .venv/bin/activate
-    uv pip install jupyterlab ipykernel pandas boto3
+    uv pip install -r requirements.txt
     python -m ipykernel install --user --name mlops26
 ```
 
