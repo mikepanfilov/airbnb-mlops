@@ -1,4 +1,4 @@
-# Курсовой проект по предмету ML/DLOps.
+# Курсовой проект по предмету ML/DLOps
 ---
 Подготовил: Панфилов Михаил Алексеевич
 
@@ -47,4 +47,5 @@
 ## Ноутбуки
 
 1. 01_read_data.ipynb: чтение CSV из S3
-2. 02_training.ipynb: регрессия цены, разбиение, выбираем между Ridge, соседями и деревом по MAE на validation, финальная оценка на test.
+2. 02_training.ipynb: регрессия цены, разбиение, выбираем между Ridge, соседями и деревом по MAE на validation, финальная оценка на test
+3. 03_pipeline.ipynb: итоговый Pipeline (ColumnTransformer + Ridge), сохранение в artifacts/model.pkl. Файл model.pkl в git не храним
