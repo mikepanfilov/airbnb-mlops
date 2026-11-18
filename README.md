@@ -9,7 +9,7 @@
 ```bash
     uv venv --python 3.11
     source .venv/bin/activate
-    uv pip install jupyterlab ipykernel pandas boto3
+    uv pip install -r requirements.txt
     python -m ipykernel install --user --name mlops26
 ```
 
@@ -44,6 +44,7 @@
     jupyter lab
 ```
 
-1. Открыть 01_read_data.ipynb
-2. Выбрать ядро mlops26
-3. Выполните ячейки сверху вниз
+## Ноутбуки
+
+1. 01_read_data.ipynb: чтение CSV из S3
+2. 02_training.ipynb: регрессия цены, разбиение, выбираем между Ridge, соседями и деревом по MAE на validation, финальная оценка на test.
